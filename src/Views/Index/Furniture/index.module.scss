@@ -1,0 +1,63 @@
+
+html,body{
+    height: 100%;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* .boxline{
+    width: 100%;
+    height: .3rem;
+    background: #f5f5f5;
+} */
+.listbox1{
+    width: 100%;
+    // height: 100%;
+    margin-top: 0.4rem;
+    padding-bottom: 3rem;
+    background:#fff;
+}
+.listName{
+    font-size: 0.36rem;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    margin: .4rem 0;
+
+}
+.listds{
+    font-size: .24rem;
+    text-align: center;
+    color: #808080;
+}
+.thingBox{
+    width: 50%;
+    height: 5.9rem;
+    float: left;
+    margin-top: .2rem;
+    background: #fff;
+}
+.thingName{
+    width: 2.3rem;
+    font-size: .28rem;
+    margin-left: .3rem;
+    color: #808080;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    padding-top: 0.1rem;
+}
+.price{
+    font-size: 0.32rem;
+    margin-left: .3rem;
+    font-weight: bold;
+}
+.aaaa{
+    border: 3px solid #000;
+}
+.ddddd{
+    border: 3px solid #0f0;
+}

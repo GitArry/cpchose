@@ -1,0 +1,31 @@
+.active{
+    color: black;
+}
+
+.indexheader{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    background: #fff;
+    // position: absolute;
+    top:5%; 
+ 
+    ul{
+        display: flex;
+        height: 0.8rem;
+        line-height: 0.8rem;
+
+    
+        li{
+            // flex: 1;
+            float: left;
+            color: #808080;
+            margin: 0rem 0.43rem;
+            font-size: 0.28rem;
+            padding: 0 0.22rem;
+            a{
+                color: #808080;
+            }
+        }
+    }
+}

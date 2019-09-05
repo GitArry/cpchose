@@ -1,0 +1,32 @@
+.box{
+        display: flex;
+        flex-flow: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 0.1rem;
+    height: 5.6rem;
+    // background:#fff;
+    ul{
+        background: #fff;
+        width: 100%;
+        li{
+            float: left;
+            width:50%;
+        }
+        p{
+            color: #808080;
+            font-size: 0.25rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 100%;
+        }
+        span{
+            font-family: PingFangSC-Regular;
+            font-size: 0.26rem;
+            color: #000;
+            margin-right: 0.1rem;
+            margin-left: 0.3rem;
+        }
+    }
+}
